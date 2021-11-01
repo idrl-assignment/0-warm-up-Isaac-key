@@ -1,6 +1,7 @@
-# TODO: import ...
+
 import numpy as np
 import imageio
+
 
 def generate_random_matrix(m, n):
     random_matrix = np.random.rand(m,n)
@@ -10,7 +11,6 @@ def generate_random_matrix(m, n):
 def save_matrix(matrix, file_name):
     imageio.imsave(file_name, matrix)
     
-
 
 if __name__ == "__main__":
     matrix = generate_random_matrix(10, 10)
