@@ -10,7 +10,7 @@ def generate_random_matrix(m, n):
 
 def save_matrix(matrix, file_name):
     imageio.imsave(file_name, matrix)
-    
+
 
 if __name__ == "__main__":
     matrix = generate_random_matrix(10, 10)
