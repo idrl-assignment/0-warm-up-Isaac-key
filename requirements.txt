@@ -1,2 +1,4 @@
 pytest
 # TODO: add additional package
+numpy==1.19.2
+Pillow==8.3.1
