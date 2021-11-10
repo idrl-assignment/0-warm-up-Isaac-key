@@ -1,2 +1,6 @@
 pytest
 # TODO: add additional package
+numpy==1.19.2
+Pillow==8.4.0
+imageio==2.10.1
+scipy==1.7.1

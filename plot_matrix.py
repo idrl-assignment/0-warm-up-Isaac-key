@@ -1,12 +1,15 @@
-# TODO: import ...
+
+import numpy as np
+import imageio
 
 
 def generate_random_matrix(m, n):
-    raise NotImplementedError  # TODO: 删除该行，实现该函数功能
+    random_matrix = np.random.randint(0, 2, (m, n))
+    return random_matrix
 
 
 def save_matrix(matrix, file_name):
-    raise NotImplementedError  # TODO: 删除该行，实现该函数功能
+    imageio.imsave(file_name, matrix)
 
 
 if __name__ == "__main__":
